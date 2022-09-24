@@ -1,7 +1,7 @@
 const FIRST_LETTER_ASCII_NUM = 65; // A
 const MID_LETTER_ASCII_NUM = 77; // M
 const MID_NEXT_LETTER_ASCII_NUM = 78; // N
-const LAST_LETTER_ASCII_NUM = 90; // M
+const LAST_LETTER_ASCII_NUM = 90; // Z
 
 function caesarsCipher(str, shift) {
     let result = "";
