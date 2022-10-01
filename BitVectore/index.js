@@ -23,8 +23,8 @@ vec.set(1, 0);
 vec.set(2, 1);
 vec.set(4, 0);
 
-a.get(0); // 1
-a.get(1); // 0
-a.get(2); // 1
-a.get(4); // 0
+vec.get(0); // 1
+vec.get(1); // 0
+vec.get(2); // 1
+vec.get(4); // 0
 // Vector array [ 1, 2, 4, undefind, 16 ]
