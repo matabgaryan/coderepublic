@@ -1,5 +1,5 @@
 class BitVectore{
-    constructor(size) {
+    constructor() {
         this.array = [];
     }
 
@@ -13,12 +13,11 @@ class BitVectore{
     }
 
     get(index) {
-        console.log(this.array)
         return (this.array[index] & (1 << index)) > 0 ? 1 : 0;
     }
 }
 
-const vec = new BitVectore(64);
+const vec = new BitVectore();
 vec.set(0, 1);
 vec.set(1, 0);
 vec.set(2, 1);
